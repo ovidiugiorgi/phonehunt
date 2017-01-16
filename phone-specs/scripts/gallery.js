@@ -14,6 +14,7 @@ $(document).ready(() => {
       current_img = total_img;
     }
     $('.current_img')[0].innerHTML = current_img.toString();
+    $('.current_img').css('font-weight', 'bold');
     $('img')[0].src = path + current_img.toString() + img_format;
   });
 
@@ -24,6 +25,7 @@ $(document).ready(() => {
       current_img = 1;
     }
     $('.current_img')[0].innerHTML = current_img.toString();
+    $('.current_img').css('font-weight', 'bold');
     $('img')[0].src = path + current_img.toString() + img_format;
   });
 });
