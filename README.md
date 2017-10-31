@@ -1,3 +1,3 @@
 # PhoneHunt
 
-Website created for the Web Techniques course from uni.
+Website created for the Web Techniques course from uni
